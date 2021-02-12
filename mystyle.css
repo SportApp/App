@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #cdfc76;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+hr {
+    border: 0.2em solid green;
+}
+
+p {
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.menu-bar {
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 10em;
+    margin: 0.8em;
+    padding: 0.5em;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #2bab0d;
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -o-border-radius: 3em;
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}
+
+.menu-bar .fa {
+    margin-right: 0.5em;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 0.1em;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 10.4em;
+    padding: 0.5em;
+    background: transparent;
+    margin-top: -0.3em;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #b2ff00;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.sub-menu-3 {
+    display: none;
+}
+
+.sub-menu-4 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -1.5em;
+    margin-left: 10em;
+    background: rgb(0, 100, 0);
+}
+
+.hover-me:hover .sub-menu-3 {
+    position: absolute;
+    display: block;
+    margin-top: -1.5em;
+    margin-left: 10em;
+    background: rgb(0, 100, 0);
+}
+
+.hover-me:hover .sub-menu-4 {
+    position: absolute;
+    display: block;
+    margin-top: -1.5em;
+    margin-left: 10em;
+    background: rgb(0, 100, 0);
+}
+
+address {
+    margin-top: 20em;
+    font-size: 12px;
+    text-align: center;
+}
+
+.image_1 {
+    display: block;
+    margin: auto;
+    margin-top: -1em;
+    width: 6%;
+}
